@@ -29,6 +29,10 @@ Snapshots of the editing todo 👇
 Snapshots of the updated todo 👇
 ![Alt Text](Screenshot%20(277).png?raw=true "Title")
 
+
+Snapshots of the todo firebase database 👇
+![Alt Text](Screenshot%20(280).png?raw=true "Title")
+
 Snapshots of the deleting todo 👇
 ![Alt Text](Screenshot%20(278).png?raw=true "Title")
 
