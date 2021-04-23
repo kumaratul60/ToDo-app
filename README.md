@@ -12,7 +12,7 @@ Full CRUD (Create,Read,Update & Delete) functinality.
 
 used [Material-UI](https://material-ui.com/) to design, and create POP-up (Modal) functionality.
 
-used React conceps: hooks, state, etc.
+used React concepts: hooks, state, etc.
 
 
 Snapshots of the todo-app 👇
