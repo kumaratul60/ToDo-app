@@ -23,14 +23,19 @@ Snapshots of the adding todo 👇
 ![Alt Text](Screenshot%20(275).png?raw=true "Title")
 
 
+Snapshots of the firebase database 👇
+![Alt Text](Screenshot%20(280).png?raw=true "Title")
+
+
 Snapshots of the editing todo 👇
 ![Alt Text](Screenshot%20(276).png?raw=true "Title")
+
 
 Snapshots of the updated todo 👇
 ![Alt Text](Screenshot%20(277).png?raw=true "Title")
 
 
-Snapshots of the todo firebase database 👇
+Snapshots of the todo firebase updated database 👇
 ![Alt Text](Screenshot%20(281).png?raw=true "Title")
 
 Snapshots of the deleting todo 👇
