@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+# Getting Started with [Todo-App](https://todo-app-dad9c.web.app/)
+
+developed a [web app](https://todo-app-dad9c.web.app/) Single Page Application [(SPA)](https://en.wikipedia.org/wiki/Single-page_application) using ReactJS and HTML,CSS for Design.
+
+some main concepts used in this application:
+
+firebase(database) that synk the realtime database.
+
+Hosted online(firebase)
+
+Full CRUD (Create,Read,Update & Delete) functinality.
+
+used [Material-UI](https://material-ui.com/) to design, and create POP-up (Modal) functionality.
+
+used React conceps: hooks, state, etc.
+
+
+Snapshots of the todo-app 👇
+![Alt Text](Screenshot%20(274).png?raw=true "Title")
+
+
+Snapshots of the adding todo 👇
+![Alt Text](Screenshot%20(275).png?raw=true "Title")
+
+
+Snapshots of the editing todo 👇
+![Alt Text](Screenshot%20(276).png?raw=true "Title")
+
+Snapshots of the updated todo 👇
+![Alt Text](Screenshot%20(277).png?raw=true "Title")
+
+Snapshots of the deleting todo 👇
+![Alt Text](Screenshot%20(278).png?raw=true "Title")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
