@@ -8,7 +8,7 @@ firebase(database) that synk the realtime database.
 
 Hosted online(firebase)
 
-Full CRUD (Create,Read,Update & Delete) functinality.
+Full CRUD (Create,Read,Update & Delete) functinality, without refreshing either client (todo-app) or server (firebase), instant changes visible.
 
 used [Material-UI](https://material-ui.com/) to design, and create POP-up (Modal) functionality.
 
