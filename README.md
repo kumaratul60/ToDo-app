@@ -2,15 +2,15 @@
 
 
 
-developed a [web app](https://todo-app-dad9c.web.app/) Single Page Application [(SPA)](https://en.wikipedia.org/wiki/Single-page_application) using ReactJS and HTML,CSS for Design.
+developed a [web app](https://todo-app-dad9c.web.app/) Single Page Application [(SPA)](https://en.wikipedia.org/wiki/Single-page_application) using ReactJS and HTML, CSS for Design.
 
 some main concepts used in this application:
 
-firebase(database) that synk the realtime database.
+firebase(database) that synk the real-time database.
 
 Hosted online(firebase)
 
-Full CRUD (Create,Read,Update & Delete) functinality, without refreshing either client (todo-app) or server (firebase), instant changes visible.
+Full CRUD (Create, Read, Update & Delete) functionality, without refreshing either client (todo-app) or server (firebase), instant changes visible.
 
 used [Material-UI](https://material-ui.com/) to design, and create POP-up (Modal) functionality.
 
