@@ -19,9 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-   
   },
-  "eslintConfig": { 
+  "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
