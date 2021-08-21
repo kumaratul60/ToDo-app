@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   Button,
- 
   ListItem,
   ListItemText,
   Modal,
@@ -54,32 +53,31 @@ function Todo(props) {
             placeholder={props.todo.todo}
             value={input}
             onChange={(event) => setInput(event.target.value)}
+            defaultValue={props.todo.todo}
           />
           <Button onClick={updateTodo}> Update Todo</Button>
         </div>
       </Modal>
 
-     
-        <Container maxWidth="md">
-          <Grid container spacing={2}>
-            <ListItem>
-              {/*  props.todo.todo == props.text.object */}
+      <Container maxWidth="md">
+        <Grid container spacing={2}>
+          <ListItem>
+            {/*  props.todo.todo == props.text.object */}
 
-              <ListItemText
-                primary={props.todo.todo}
-                // secondary="Dummy secondary value ⏰ "
-              />
+            <ListItemText
+              primary={props.todo.todo}
+              // secondary="Dummy secondary value ⏰ "
+            />
 
-              <EditOutlined onClick={(e) => setOpen(true)} />
-              <DeleteForeverSharpIcon
-                onClick={(event) =>
-                  db.collection("todos").doc(props.todo.id).delete()
-                }
-              ></DeleteForeverSharpIcon>
-            </ListItem>
-          </Grid>
-        </Container>
-    
+            <EditOutlined onClick={(e) => setOpen(true)} />
+            <DeleteForeverSharpIcon
+              onClick={(event) =>
+                db.collection("todos").doc(props.todo.id).delete()
+              }
+            ></DeleteForeverSharpIcon>
+          </ListItem>
+        </Grid>
+      </Container>
     </>
   );
 }
