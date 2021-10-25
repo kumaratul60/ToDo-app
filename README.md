@@ -3,7 +3,7 @@
 
 
 developed a [web app](https://todo-app-dad9c.web.app) Single Page Application [(SPA)](https://en.wikipedia.org/wiki/Single-page_application) using ReactJS and HTML, CSS for Design.
-
+ 
 some main concepts used in this application:
 
 firebase(database) that sync the real-time database.
