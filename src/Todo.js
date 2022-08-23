@@ -20,8 +20,12 @@ const useStyles = makeStyles((theme) => ({
     width: 400,
     backgroundColor: theme.palette.background.paper,
     border: "2px solid #00",
+    borderRadius: "10px",
+    outline: "none",
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
+    top: "35%",
+    left: "35%",
   },
 }));
 
@@ -32,6 +36,10 @@ function Todo(props) {
 
   const updateTodo = () => {
     // update the todo with new input text
+    if (!input.trim()) {
+      alert("type updated todo");
+      return;
+    }
 
     db.collection("todos").doc(props.todo.id).set(
       {

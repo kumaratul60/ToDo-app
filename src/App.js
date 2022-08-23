@@ -29,7 +29,10 @@ function App() {
   const addToDo = (event) => {
     //this will fire off when we click the button
     event.preventDefault(); // It will stop from Refesh or preventing from submit
-
+    if (!input.trim()) {
+      alert("type something ");
+      return;
+    }
     db.collection("todos").add({
       todo: input,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
@@ -40,7 +43,12 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>Todo-App🚀 </h1>
+      <h1>
+        Todo-App{" "}
+        <i>
+          <b>🚀</b>
+        </i>
+      </h1>
       <form>
         <FormControl>
           <InputLabel> Write a Todo ✅</InputLabel>
